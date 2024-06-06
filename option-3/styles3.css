@@ -1,0 +1,53 @@
+.global-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 360px;
+    /* background-color: red; */
+    /* gap: 10%; */
+    width: 52%;
+    position: absolute;
+    left: 26%;
+    top: calc(48% - 170px)
+}
+
+.container{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    height: 120px;
+    /* position: absolute; */
+    left: 18%;
+    margin-bottom: 10px;
+    /* background-color: purple; */
+}
+
+.container1{
+    fill: red;
+}
+
+.container-2{
+    width: 88%;
+    fill: blue;
+}
+
+.container-3{
+    width: 40%;
+    fill: greenyellow;
+}
+
+.square{
+    /* background-color: red; */
+    width: auto;
+    height: 100%;
+    position: relative;
+    /* background-color: blue; */
+    margin-left: 10px;
+}
+
+img{
+    height: 100%;
+    width: auto;
+    margin-bottom: 20px;
+}

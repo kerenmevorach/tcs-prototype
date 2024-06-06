@@ -1,0 +1,58 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-weight: normal;
+}
+
+button{
+    background-color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 45px;
+    width: 300px;
+    border: black 1px solid;
+    font-size: 20px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.small-button{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+a:visited{
+    color: black;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+button:hover a{
+    color: white;
+}
+
+
+.container-home{
+    width: 600px;
+    height: 250px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: calc(50% - 300px);
+    top: calc(50% - 125px);
+    align-items: center;
+}
